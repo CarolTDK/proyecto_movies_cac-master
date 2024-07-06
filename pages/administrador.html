@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Administrador de películas</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1 class="titulo">Gestión de Películas</h1>
+      <form id="peliculaForm">
+        <input type="hidden" id="peliculaId" /><!-- peliculaId -->
+
+        <input type="text" placeholder="Título" id="titulo" required />
+
+        <input type="number" placeholder="Año" id="anio_estreno" required />
+
+        <input type="text" placeholder="Categoría" id="categoria" required />
+
+        <input
+          placeholder="Duración"
+          type="datetime"
+          id="duracion"
+        /><!-- Duración -->
+        <button class="boton" type="submit">Guardar</button>
+      </form>
+      <!-- <table id="peliculasTable">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Título</th>
+            <th>Año</th>
+            <th>Duración</th>
+            <th>Categoría</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table> -->
+    </main>
+    <table id="peliculasTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Título</th>
+          <th>Año</th>
+          <th>Duración</th>
+          <th>Categoría</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>
