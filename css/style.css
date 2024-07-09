@@ -10,7 +10,6 @@ body {
   /* scrollbar-color: #9f3647  #181419; /*nuevo
      scrollbar-width: thin;*/
 }
-/*ESTILOS ESCRITORIO PARA PAGINA Registrarse */
 body {
   height: 100vh;
   background: linear-gradient(to right top, #24242473, #24242473),
@@ -34,79 +33,235 @@ body {
   }
   main {
     /*seccion de registrarse.html*/
-
-    background-color: rgb(42, 42, 42);
-    width: 30%;
-    margin: 0 auto;
-    border-radius: 5px;
-    padding: 40px 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    font-size: 1.2rem;
-    .titulo {
-      font-size: 2.5rem;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
-    /*seleccionar todos los input menos el checkbox*/
-    form {
-      width: 100%;
-      padding: 40px;
-      input:not(.check, .boton),
-      select {
-        width: 100%;
-        margin-bottom: 10px;
-        height: 40px;
-        padding: 0px 20px;
-        font-size: 1.2rem;
-        border-radius: 20px;
-        border: 2px solid #9f3647;
-        background-color: #333333;
-        outline: none;
-        color: rgb(255, 255, 255);
-      }
-      .error input:not(.check, .boton),
-      .error select {
-        border: 1px solid #ff0000;
-      }
-      .error-text {
-        color: #ff0000;
-        font-size: 0.8rem;
-        margin-top: 0px;
-        margin-bottom: 10px;
-      }
-
-      /* .terminos {
-        font-size: 0.8rem;
-        display: flex;
-        align-items: center;
+    .seccionRegistrarse{
+      background-color: rgb(42, 42, 42);
+      width: 30%;
+      margin: 0 auto;
+      border-radius: 5px;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      height: 90vh;
+      font-size: 1.2rem;
+      .titulo {
+        font-size: 2.5rem;
+        font-weight: 700;
         margin-bottom: 20px;
-        .textoCheck {
-          margin-left: 10px;
-        }
-      } */
-      .boton {
-        width: 87%;
-        box-sizing: content-box;
-        background-color: #9f3647;
-        border: 2px solid #9f3647;
-        color: #ffffff;
-        padding: 1rem 1rem;
-        border-radius: 5px;
-        font-size: 1rem;
-        font-weight: 500;
       }
-      .ayuda {
-        margin-top: 40px;
-        font-size: 1rem;
-        text-decoration: none;
-        color: #787878;
-        font-weight: 400;
+      /*seleccionar todos los input menos el checkbox*/
+      form {
+        width: 100%;
+        padding: 40px;
+        input:not(.check, .boton),
+        select {
+          width: 100%;
+          margin-bottom: 10px;
+          height: 40px;
+          padding: 0px 20px;
+          font-size: 1.2rem;
+          border-radius: 20px;
+          border: 2px solid #9f3647;
+          background-color: #333333;
+          outline: none;
+          color: rgb(255, 255, 255);
+        }
+        .error input:not(.check, .boton),
+        .error select {
+          border: 1px solid #ff0000;
+        }
+        .error-text {
+          color: #ff0000;
+          font-size: 0.8rem;
+          margin-top: 0px;
+          margin-bottom: 10px;
+        }
+
+        /* .terminos {
+          font-size: 0.8rem;
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          .textoCheck {
+            margin-left: 10px;
+          }
+        } */
+        .boton {
+          width: 87%;
+          box-sizing: content-box;
+          background-color: #9f3647;
+          border: 2px solid #9f3647;
+          color: #ffffff;
+          padding: 1rem 1rem;
+          border-radius: 5px;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+        .ayuda {
+          margin-top: 40px;
+          font-size: 1rem;
+          text-decoration: none;
+          color: #787878;
+          font-weight: 400;
+        }
       }
     }
+  }
+
+  .main-adm {
+    /*seccion de administrador.html*/
+    .seccionAdministrador{
+      background-color: rgb(42, 42, 42);
+      width: 700px;
+      min-height: 450px;
+      margin: 0 auto;
+      border-radius: 5px;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      max-height: 60vh;
+      font-size: 1.2rem;
+      .titulo_cabecera {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      /*seleccionar todos los input menos el checkbox*/
+      form {
+        /* width: 100%; */      
+        padding: 40px;      
+        input:not(.check, .boton),
+        select {
+          width: 430px;
+          margin-bottom: 10px;
+          height: 40px;
+          padding: 0px 20px;
+          font-size: 1.2rem;
+          border-radius: 20px;
+          border: 2px solid #9f3647;
+          background-color: #333333;
+          outline: none;
+          color: rgb(255, 255, 255);
+        }
+        .error input:not(.check, .boton),
+        .error select {
+          border: 1px solid #ff0000;
+        }
+        .error-text {
+          color: #ff0000;
+          font-size: 0.8rem;
+          margin-top: 0px;
+          margin-bottom: 10px;
+        }
+
+        /* .terminos {
+          font-size: 0.8rem;
+          display: flex;
+          align-items: center;
+          margin-bottom: 20px;
+          .textoCheck {
+            margin-left: 10px;
+          }
+        } */
+        .boton {
+          width: 150px;
+          /* box-sizing: content-box; */
+          background-color: #9f3647;
+          border: 2px solid #9f3647;
+          color: #ffffff;
+          padding: 1rem 1rem;
+          margin-top: 10px;
+          border-radius: 5px;
+          font-size: 1rem;
+          font-weight: 500;
+          }
+        .ayuda {
+          margin-top: 40px;
+          font-size: 1rem;
+          text-decoration: none;
+          color: #787878;
+          font-weight: 400;
+        }
+        .label-form {
+          width: 140px;
+          display: inline-block;
+        }
+        h2 {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .containerTable {
+    width: 1002px;
+    height: 318px;
+    overflow-y: auto;
+    margin: 40px auto;
+    padding: 0px;
+    background-color: #333333;
+    border: 1px solid #333333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  table {
+    margin: 0 auto; /* Centrar la tabla horizontalmente */
+    width: 1000px; /* Ancho de la tabla */
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    border-collapse: collapse; /* Eliminar espacio entre celdas */
+    border: 1px solid #ddd; /* Borde gris claro */
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: #333333;
+    color: #fff;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: center;
+    height: 35px;
+    border: 1px solid #ddd;
+  }
+  
+  td {
+    background-color: #d3d3d3;
+    color: #000000;
+  }
+  
+  tr td:nth-child(2) {
+    text-align: left;
+  }
+
+  #colId {
+    width: 10%;
+  }
+
+  #colTitulo {
+    width: 35%;
+  }
+
+  #colAnio {
+    width: 10%;
+  }
+
+  #colDuracion {
+    width: 10%;
+  }
+
+  #colIdCategoria {
+    width: 12%;
+  }
+
+  #colAcciones {
+    width: 23%;
   }
 }
