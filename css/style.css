@@ -132,9 +132,8 @@ body {
         font-weight: 700;
         margin-bottom: 20px;
       }
-      /*seleccionar todos los input menos el checkbox*/
-      form {
-        /* width: 100%; */      
+      
+      form {    
         padding: 40px;      
         input:not(.check, .boton),
         select {
@@ -160,15 +159,6 @@ body {
           margin-bottom: 10px;
         }
 
-        /* .terminos {
-          font-size: 0.8rem;
-          display: flex;
-          align-items: center;
-          margin-bottom: 20px;
-          .textoCheck {
-            margin-left: 10px;
-          }
-        } */
         .boton {
           width: 150px;
           /* box-sizing: content-box; */
@@ -211,11 +201,11 @@ body {
   }
 
   table {
-    margin: 0 auto; /* Centrar la tabla horizontalmente */
-    width: 1000px; /* Ancho de la tabla */
-    background-color: #f0f0f0; /* Color de fondo gris claro */
-    border-collapse: collapse; /* Eliminar espacio entre celdas */
-    border: 1px solid #ddd; /* Borde gris claro */
+    margin: 0 auto; 
+    width: 1000px;
+    background-color: #f0f0f0; 
+    border-collapse: collapse; 
+    border: 1px solid #ddd;
   }
 
   thead {
